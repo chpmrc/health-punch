@@ -33,7 +33,7 @@ This ensures that "client" and "server" can communicate without having to worry 
 - Add your [Replicate](https://replicate.com) API key to `.env.`
 - Install node-foreman: `npm i -g nf`
 - Run: `nf start -f Procfile-tunnel` and wait for the peers to connect
-- Run: `nf start -f Procfile-app` and wait for the peers to connect
+- Run: `nf start -f Procfile-app`
 
 Go to http://localhost:3000 and start chatting with Dr. Murhpy.
 
