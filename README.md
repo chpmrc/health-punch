@@ -41,6 +41,7 @@ The model used is `meta/meta-llama-3-8b-instruct` which is open source and self 
 
 ## Future work
 
+- [ ] Support for web sockets (Next's HMR uses them)
 - [ ] Self host `meta/meta-llama-3-8b-instruct`
 - [ ] Build an API that is compatible with Replicate's SDK (open source)
 - [ ] Support persistent through Postgres and embeddings through `pg-vector`
