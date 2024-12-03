@@ -1,0 +1,2 @@
+next-server: rm -f /tmp/healthpunch-server2swarm && cd holepunch-tunnel && pear run --dev ./index.js a378fc1f3632059271fe0a3b61bd3276a42cbbf448c52de55852fac43d5ae0f9 /tmp/healthpunch-server2swarm
+next-client: rm -f /tmp/healthpunch-client2swarm && cd holepunch-tunnel && pear run --dev ./index.js a378fc1f3632059271fe0a3b61bd3276a42cbbf448c52de55852fac43d5ae0f9 /tmp/healthpunch-client2swarm

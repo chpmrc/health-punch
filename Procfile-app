@@ -1,0 +1,2 @@
+client: cd app && npm run dev
+server: cd app && npx tsx watch server-server.ts

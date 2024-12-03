@@ -1,0 +1,33 @@
+{
+  "name": "health-punch",
+  "main": "index.js",
+  "pear": {
+    "name": "health-punch",
+    "type": "terminal"
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "export $(cat .env | xargs) && pear run -d ./server.js",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "b4a": "^1.6.7",
+    "bare-fetch": "^2.0.0",
+    "bare-fs": "^4.0.0",
+    "bare-net": "^2.0.0",
+    "bare-process": "^4.0.0",
+    "bare-readline": "^1.0.6",
+    "bare-tty": "^5.0.0",
+    "hypercore-crypto": "^3.4.2",
+    "hyperdht": "^6.20.1",
+    "hyperswarm": "^4.8.4",
+    "pear-inspect": "^1.2.3"
+  }
+}
