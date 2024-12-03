@@ -28,6 +28,8 @@ This ensures that "client" and "server" can communicate without having to worry 
 
 ## Run demo
 
+🎥 [Video demo](https://youtu.be/b-_N3v5Y748)
+
 - Add your [Replicate](https://replicate.com) API key to `.env.`
 - Install node-foreman: `npm i -g nf`
 - Run: `nf start -f Procfile-tunnel` and wait for the peers to connect
